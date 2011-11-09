@@ -1,0 +1,21 @@
+{
+  "name" : "screw-node-static",
+  "description" : "node-static for arcabouco-js",
+  "version" : "1.0.0",
+  "author" : "Patrick Negri <patrick@iugu.com.br>",
+  "homepage": "http://github.com/pnegri/screws-node-static",
+  "contributors" : [],
+  "main" : "./main.js",
+  "directories": {
+    "lib":"./lib"
+  },
+  "dependencies" : {
+    "node-static": ">=0.5.9",
+    "vows": ">=0.5.12"
+  },
+  "repository" : {
+    "type":"git",
+    "url":"git://github.com/pnegri/screws-node-static.git"
+  },
+  "engines" : { "node" : ">= 0.4.0 < 0.7.0" }
+}
